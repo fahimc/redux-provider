@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Redux Provider Example</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <script src="../node_modules/redux/dist/redux.js"></script>
+    <script src="../src/redux-provider.js"></script>
+    <script src="store.js"></script>
+    <script src="./new-person.js"></script>
+    <script src="./person.js"></script>
+    <script src="./person-list.js"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+    <redux-provider store="store">
+        <x-new-person></x-new-person>
+    </redux-provider>
+    <redux-provider store="store" map-state-to-props="{list:'peopleList'}">
+        <x-person-list></x-person-list>
+    </redux-provider>
+</body>
+</html>

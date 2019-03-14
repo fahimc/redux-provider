@@ -1,0 +1,25 @@
+{
+  "name": "redux-provider",
+  "version": "1.0.0",
+  "description": "custom elements implementation of a redux provider. Works with any custom element.",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fahimc/redux-provider.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fahimc/redux-provider/issues"
+  },
+  "homepage": "https://github.com/fahimc/redux-provider#readme",
+  "dependencies": {
+    "redux": "^4.0.1"
+  }
+}
